@@ -1,0 +1,38 @@
+.title-about {
+  width: 860px;
+
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.info-about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.text-about {
+  width: 360px;
+
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #909da2;
+}
+
+.btn-about {
+  background: #5b40ff;
+
+  border-radius: 11px;
+  padding: 18px 45px;
+  min-width: 198px;
+  height: 58px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
