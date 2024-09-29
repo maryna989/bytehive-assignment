@@ -6,6 +6,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 p:last-child {
@@ -25,6 +26,7 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 img {
