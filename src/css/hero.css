@@ -1,0 +1,42 @@
+.hero-container {
+  height: 854px;
+
+  background: #f3f5f6;
+
+  border-radius: 30px;
+
+  text-align: center;
+}
+
+.title-hero {
+  margin: 0 auto;
+  max-width: 811px;
+  padding-top: 82px;
+
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.btn-hero {
+  margin-top: 36px;
+
+  background: #5b40ff;
+
+  border-radius: 11px;
+  padding: 18px 45px;
+  min-width: 192px;
+  height: 58px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.img-hero {
+  margin-top: 79px;
+}

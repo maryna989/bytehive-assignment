@@ -28,6 +28,10 @@ body {
   overflow: hidden;
 }
 
+section {
+  padding-bottom: 180px;
+}
+
 .container {
   width: 100%;
   max-width: 1160px;
