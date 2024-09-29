@@ -33,3 +33,7 @@ body {
   max-width: 1160px;
   margin: 0 auto;
 }
+
+.icon {
+  fill: #5b40ff;
+}

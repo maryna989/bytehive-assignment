@@ -1,0 +1,21 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 37px 0 37px 0;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+
+.social-icons-list {
+  display: flex;
+  gap: 35px;
+}
