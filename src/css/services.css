@@ -1,0 +1,41 @@
+.our-services {
+  display: flex;
+  justify-content: flex-start;
+  gap: 173px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.services-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: 40px;
+  min-width: 238px;
+  height: 184px;
+  position: relative;
+}
+
+.services-group:not(:first-child)::before {
+  content: '';
+  position: absolute;
+  left: -69px;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: 0;
+  width: 1px;
+  height: 211px;
+  background-color: #e6e9ea;
+}
+.service-item {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+
+  color: #22282b;
+}
+.icon-arrow {
+  margin-left: 14px;
+}
