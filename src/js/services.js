@@ -1,8 +1,4 @@
-const listServices = [
-  ['Creative Direction', 'Art Direction', 'Visual Design', 'Service Design'],
-  ['UX Design', 'Brand Identity', 'Concepting', 'Interaction Design'],
-  ['Design Systems', 'Strategy', 'Digital Experiences', 'Consulting'],
-];
+import { listServices } from '../mocks/listServicesMocks';
 
 const buildServicesMarkup = () => {
   return `
