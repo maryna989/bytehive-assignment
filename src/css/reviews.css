@@ -1,0 +1,29 @@
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+
+.quote-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 81px;
+  width: 750px;
+
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.autor-review {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+
+  color: #909da2;
+}
