@@ -5,7 +5,7 @@ const ulElement = document.querySelector('.js-plans-list');
 
 function createPlanMarkup(plan, index) {
   return `
-            <li>
+            <li class="pricing-items">
                 <div class="plan-header">
                 ${
                   plan.popular
@@ -21,9 +21,10 @@ function createPlanMarkup(plan, index) {
                     
                 </div>
 
-                ${index === 0 ? `<p>What’s included</p>` : ''}
-
                 <div class="plan-features">
+                
+                 ${index === 0 ? `<p>What’s included</p>` : ''}
+
                     <h4 class="plan">${plan.plan}</h4>
                     <ul class="list-features">
                         ${plan.features.map(createFeatureItem).join('')}
