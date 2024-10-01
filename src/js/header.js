@@ -2,23 +2,15 @@ import { navItems } from '../mocks/navItemsMocks';
 import { socialMedia } from '../mocks/socialMediaMocks';
 import { createSocialList } from '../components/createSocialList';
 
-const navList = navItems
+const navElements = navItems
   .map(
     item => `<li class="nav-item"><a href="${item.link}">${item.title}</a></li>`
   )
   .join('');
 
-const nav = `
-      <nav class="nav-header">
-        <ul class="nav-list">
-          ${navList}
-        </ul>
-      </nav>
-    `;
+const navList = document.querySelector('.nav-list');
 
-const headerContainer = document.querySelector('#header');
-const iconsList = document.querySelector('.js-logo');
+const headerSocials = document.querySelector('.header-socials');
 
-headerContainer.insertAdjacentHTML('afterbegin', nav);
-
-headerContainer.insertAdjacentHTML('beforeend', createSocialList(socialMedia));
+navList.innerHTML = navElements;
+headerSocials.innerHTML = createSocialList(socialMedia);

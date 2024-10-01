@@ -44,8 +44,15 @@ section {
   margin: 0 auto;
 }
 
-.icon {
+.social-item a {
+  display: flex;
+}
+.social-icon {
   fill: #5b40ff;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
 }
 
 blockquote {
