@@ -16,7 +16,7 @@
         </svg>
             ${e}
         </li>`}const y=document.querySelector(".js-plans-list");function $(e,t){return`
-            <li>
+            <li class="pricing-items">
                 <div class="plan-header">
                 ${e.popular?'<span class="most-popular">Most popular</span>':""}
                     <h3 class="title-plan">${e.title}</h3> 
@@ -26,9 +26,10 @@
                     
                 </div>
 
-                ${t===0?"<p>What’s included</p>":""}
-
                 <div class="plan-features">
+                
+                 ${t===0?"<p>What’s included</p>":""}
+
                     <h4 class="plan">${e.plan}</h4>
                     <ul class="list-features">
                         ${e.features.map(v).join("")}
