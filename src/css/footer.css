@@ -6,9 +6,20 @@
   gap: 60px;
 }
 
-/* .soc-icon-footer {
+.soclist-icons-footer {
+  gap: 20px;
+}
 
-} */
+.footer-soc-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+
+  background-color: #f3f5f6;
+}
 
 .items-footer {
   display: flex;
