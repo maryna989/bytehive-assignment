@@ -1,6 +1,7 @@
 import { listPlans } from '../mocks/listPlansMocks';
+import { createFeatureItem } from '../components/planCarts';
 
-const ulElement = document.querySelector('.js-plans-list'); // Updated selector for the plans list
+const ulElement = document.querySelector('.js-plans-list');
 
 function createPlanMarkup(plan, index) {
   return `
@@ -25,17 +26,7 @@ function createPlanMarkup(plan, index) {
                 <div class="plan-features">
                     <h4 class="plan">${plan.plan}</h4>
                     <ul class="list-features">
-                        ${plan.features
-                          .map(
-                            feature => `
-                            <li>
-                                <svg width="27" height="27">
-                                  <use href="../img/icons.svg#icon-Vector"></use> 
-                                </svg>
-                                ${feature}
-                            </li>`
-                          )
-                          .join('')}
+                        ${plan.features.map(createFeatureItem).join('')}
                     </ul>
                 </div>
             </li>
