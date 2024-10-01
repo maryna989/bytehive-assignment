@@ -1,4 +1,4 @@
-const socialMedia = [
+export const socialMedia = [
   {
     platform: 'Twitter',
     link: '#',
@@ -15,5 +15,3 @@ const socialMedia = [
     icon: '#icon-instagram',
   },
 ];
-
-export { socialMedia };
