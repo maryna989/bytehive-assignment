@@ -14,9 +14,6 @@ const buildStats = statistics
   })
   .join('');
 
-const createStats = `<ul class="statistics-list">${buildStats}</ul>`;
+const statisContainer = document.querySelector('.js-statistics-list');
 
-const statisContainer = document.querySelector('.js-statistics');
-const titleStatis = document.querySelector('#js-statis');
-
-statisContainer.insertAdjacentHTML('beforeend', createStats);
+statisContainer.innerHTML = buildStats;

@@ -2,12 +2,13 @@
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+
+  gap: 40px;
 }
 
 .static-item {
   display: flex;
   flex-direction: column;
-  gap: 90px;
   width: 399px;
 }
 
@@ -24,10 +25,7 @@
 .static-item p {
   display: flex;
   justify-content: flex-end;
-}
-
-.item-value:not(:last-child) {
-  padding-right: 40px;
+  padding-top: 90px;
 }
 
 .item-value {
