@@ -31,3 +31,7 @@
   text-align: center;
   color: #fff;
 }
+
+.btn-about:hover {
+  opacity: 0.8;
+}

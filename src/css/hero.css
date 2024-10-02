@@ -37,6 +37,10 @@
   color: #fff;
 }
 
+.btn-hero:hover {
+  opacity: 0.8;
+}
+
 .img-hero {
   margin-top: 79px;
 }
