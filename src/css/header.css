@@ -1,6 +1,7 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -12,11 +13,13 @@
 }
 
 .nav-item {
-  padding: 37px 0 37px 0;
   font-size: 18px;
   letter-spacing: -0.02em;
 }
 
+.nav-link {
+  padding: 37px 0;
+}
 .nav-item:hover {
   color: #5b40ff;
 }

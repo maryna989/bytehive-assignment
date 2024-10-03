@@ -22,11 +22,13 @@ ol {
 a {
   color: currentColor;
   text-decoration: none;
+  transition: all 0.25s;
 }
 
 button {
   cursor: pointer;
   border: none;
+  transition: all 0.25s;
 }
 
 img {
