@@ -3,7 +3,7 @@
       <li class="social-item">
         <a href="${t.link}" class="social-link" aria-label="${t.platform}">
           <svg class="social-icon" width="26" height="26">
-            <use href="./img/icons.svg${t.icon}"></use>
+            <use href="/img/icons.svg${t.icon}"></use>
           </svg>
         </a>
       </li>
