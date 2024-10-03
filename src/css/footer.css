@@ -1,12 +1,8 @@
-.footer {
-  padding-bottom: 30px;
-}
-
 .footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
+  gap: 30px;
 }
 
 .footer-socials {
@@ -34,10 +30,15 @@
   position: relative;
 }
 
-.items-footer p {
+.logo-footer {
+  padding: 30px 0;
+}
+
+.footer-reserv {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  padding: 30px 0;
 
   color: #909da2;
 
@@ -49,6 +50,9 @@
   gap: 40px;
 }
 
-.footer-link:hover {
+.items-footer li {
+  padding: 30px 0;
+}
+.items-footer li:hover {
   color: #5b40ff;
 }
