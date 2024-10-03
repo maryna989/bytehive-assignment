@@ -7,8 +7,6 @@
 }
 
 .static-item {
-  display: flex;
-  flex-direction: column;
   width: 399px;
 }
 
@@ -23,8 +21,7 @@
   padding-bottom: 5px;
 }
 .static-item p {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 1px;
   padding-top: 90px;
 }
 
