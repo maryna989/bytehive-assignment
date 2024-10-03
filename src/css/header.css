@@ -20,7 +20,7 @@
 .nav-link {
   padding: 37px 0;
 }
-.nav-item:hover {
+.nav-link:hover {
   color: #5b40ff;
 }
 
