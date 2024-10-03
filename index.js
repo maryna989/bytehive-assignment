@@ -1,9 +1,9 @@
-(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))l(i);new MutationObserver(i=>{for(const s of i)if(s.type==="childList")for(const o of s.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&l(o)}).observe(document,{childList:!0,subtree:!0});function r(i){const s={};return i.integrity&&(s.integrity=i.integrity),i.referrerPolicy&&(s.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?s.credentials="include":i.crossOrigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function l(i){if(i.ep)return;i.ep=!0;const s=r(i);fetch(i.href,s)}})();const u=[{title:"About",link:"#"},{title:"Pricing",link:"#"},{title:"Contact",link:"#"}],a=[{platform:"Twitter",link:"#",icon:"#icon-twitter"},{platform:"Facebook",link:"#",icon:"#icon-facebook"},{platform:"Instagram",link:"#",icon:"#icon-instagram"}],c=e=>`
+(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))l(i);new MutationObserver(i=>{for(const s of i)if(s.type==="childList")for(const o of s.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&l(o)}).observe(document,{childList:!0,subtree:!0});function r(i){const s={};return i.integrity&&(s.integrity=i.integrity),i.referrerPolicy&&(s.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?s.credentials="include":i.crossOrigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function l(i){if(i.ep)return;i.ep=!0;const s=r(i);fetch(i.href,s)}})();const u=[{title:"About",link:"#"},{title:"Pricing",link:"#"},{title:"Contact",link:"#"}],a=[{platform:"Twitter",link:"#",icon:"icon-twitter"},{platform:"Facebook",link:"#",icon:"icon-facebook"},{platform:"Instagram",link:"#",icon:"icon-instagram"}],c=e=>`
     ${e.map(t=>`
       <li class="social-item">
         <a href="${t.link}" class="social-link" aria-label="${t.platform}">
           <svg class="social-icon" width="26" height="26">
-            <use href="/img/icons.svg${t.icon}"></use>
+            <use href="../img/icons.svg#${t.icon}"></use>
           </svg>
         </a>
       </li>
