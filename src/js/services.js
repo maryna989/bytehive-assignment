@@ -9,7 +9,7 @@ const buildServicesMarkup = () => {
             ${servicesGroup
               .map(
                 service =>
-                  `<a href="#" class="service-item">${service}<svg class="icon-arrow" width="13" height="13"><use href='../img/icons.svg#icon-arrow'></use></svg></a>`
+                  `<a href="#" class="service-item">${service}<svg class="icon-arrow" width="13" height="13"><use href='/img/icons.svg#icon-arrow'></use></svg></a>`
               )
               .join('')}
             </div>`
