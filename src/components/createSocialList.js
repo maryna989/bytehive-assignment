@@ -1,4 +1,3 @@
-import { iconFacebook, iconInstagram, iconTwitter } from '../components/icons';
 export const createSocialList = socialMedia => {
   return `
     ${socialMedia

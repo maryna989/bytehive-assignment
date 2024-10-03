@@ -1,4 +1,5 @@
 import { listServices } from '../mocks/listServicesMocks';
+import { iconArrow } from '../components/iconArrow';
 
 const buildServicesMarkup = () => {
   return `
@@ -9,7 +10,7 @@ const buildServicesMarkup = () => {
             ${servicesGroup
               .map(
                 service =>
-                  `<a href="#" class="service-item">${service}<svg class="icon-arrow" width="13" height="13"><use href='/icons/icons.svg#icon-arrow'></use></svg></a>`
+                  `<a href="#" class="service-item">${service}${iconArrow()}</a>`
               )
               .join('')}
             </div>`

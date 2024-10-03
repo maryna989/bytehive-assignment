@@ -1,4 +1,6 @@
-import { iconFacebook, iconInstagram, iconTwitter } from '../components/icons';
+import { iconFacebook } from '../components/iconFacebook';
+import { iconInstagram } from '../components/iconInstagram';
+import { iconTwitter } from '../components/iconTwitter';
 
 export const socialMedia = [
   {
