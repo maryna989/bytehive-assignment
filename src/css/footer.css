@@ -24,7 +24,7 @@
 .items-footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
 
   position: relative;
@@ -50,9 +50,10 @@
   gap: 40px;
 }
 
-.items-footer li {
+.footer-link {
   padding: 30px 0;
 }
-.items-footer li:hover {
+
+.footer-link:hover {
   color: #5b40ff;
 }
