@@ -1,17 +1,19 @@
+import { iconFacebook, iconInstagram, iconTwitter } from '../components/icons';
+
 export const socialMedia = [
   {
     platform: 'Twitter',
     link: '#',
-    icon: 'icon-twitter',
+    icon: iconTwitter(),
   },
   {
     platform: 'Facebook',
     link: '#',
-    icon: 'icon-facebook',
+    icon: iconFacebook(),
   },
   {
     platform: 'Instagram',
     link: '#',
-    icon: 'icon-instagram',
+    icon: iconInstagram(),
   },
 ];
