@@ -2,16 +2,16 @@ export const socialMedia = [
   {
     platform: 'Twitter',
     link: '#',
-    icon: '#icon-twitter',
+    icon: 'icon-twitter',
   },
   {
     platform: 'Facebook',
     link: '#',
-    icon: '#icon-facebook',
+    icon: 'icon-facebook',
   },
   {
     platform: 'Instagram',
     link: '#',
-    icon: '#icon-instagram',
+    icon: 'icon-instagram',
   },
 ];
