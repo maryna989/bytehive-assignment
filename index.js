@@ -39,7 +39,7 @@
         `}y.innerHTML=v.map((e,t)=>L(e,t)).join("");const S=[["Creative Direction","Art Direction","Visual Design","Service Design"],["UX Design","Brand Identity","Concepting","Interaction Design"],["Design Systems","Strategy","Digital Experiences","Consulting"]],w=()=>`
         ${S.map(e=>`
           <div class="services-group">
-            ${e.map(t=>`<a href="#" class="service-item">${t}<svg class="icon-arrow" width="13" height="13"><use href='../img/icons.svg#icon-arrow'></use></svg></a>`).join("")}
+            ${e.map(t=>`<a href="#" class="service-item">${t}<svg class="icon-arrow" width="13" height="13"><use href='/img/icons.svg#icon-arrow'></use></svg></a>`).join("")}
             </div>`).join("")}
     `,C=document.querySelector(".js-our-services");C.innerHTML=w();const k=document.querySelector(".js-footer-social");k.innerHTML=c(a);
 //# sourceMappingURL=index.js.map
