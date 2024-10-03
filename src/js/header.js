@@ -4,7 +4,8 @@ import { createSocialList } from '../components/createSocialList';
 
 const navElements = navItems
   .map(
-    item => `<li class="nav-item"><a href="${item.link}">${item.title}</a></li>`
+    item =>
+      `<li class="nav-item"><a class="nav-link" href="${item.link}">${item.title}</a></li>`
   )
   .join('');
 
